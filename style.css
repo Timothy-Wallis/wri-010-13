@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+h2,  h4, h3, h5,  h6, h1 {
+    text-transform: initial !important;
+    font-family: "Quicksand", sans-serif !important;
+}
+
+h2{
+    font-size: 3rem !important;
+}
+
+h3{
+    font-size: 2.5rem !important;
+}
+
+h4{
+    font-size: 2rem !important;
+}
+
+.agendaList{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    gap: .5rem !important;
+    row-gap: .5rem !important;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    grid-row: auto !important;
+}
+.agendaList p{
+    font-family: "Quicksand", sans-serif !important;
+    font-size: 2rem !important;
+}
+
+.titlePage{
+    background-image: url('./assets/images/2321000101_95294d2102_k.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    transform: translate(0,0) !important;
+}
+.r-frame{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+    border-radius: 20px;
+}
+
+.agendaPage .r-frame{
+    border-color: rgba(0, 0, 0, 0) !important;
+    background-color: transparent !important;
+}

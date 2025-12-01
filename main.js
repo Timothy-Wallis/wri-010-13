@@ -1,1 +1,1 @@
-Reveal.initialize();
+Reveal.initialize( {slideNumber: 'c/t', touch: true, preloadIframes: true} );
