@@ -75,3 +75,20 @@ h4{
     font-style: italic !important;
 }
 
+.currentIssuesPage .currentIssueContent{
+    display: grid !important;
+    grid-template-columns: auto auto !important;
+    gap: 2rem !important;
+}
+
+.currentIssueContent img{
+    max-width: 15rem !important;
+}
+.currentIssueContent label{
+    font-size: 1.2rem !important;
+    font-style: italic !important;
+}
+.currentIssueContent li{
+    font-size: 1.3rem !important;
+    margin-bottom: 1rem !important;
+}
