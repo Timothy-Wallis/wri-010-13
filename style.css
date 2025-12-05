@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+body{
+    cursor: default !important;
+}
+
 h2,  h4, h3, h5,  h6, h1 {
     text-transform: initial !important;
     font-family: "Quicksand", sans-serif !important;
@@ -62,7 +66,7 @@ h4{
 }
 
 .container img{
-    max-width: 28rem !important;
+    max-width: 25rem !important;
 }
 
 .container label{
@@ -78,4 +82,28 @@ h4{
 .container ul{
     font-size: 1.3rem !important;
     margin-bottom: 1rem !important;
+}
+
+#currentIssuesImage{
+    height: 15rem !important;
+}
+
+.controls-arrow{
+    color: rgb(0, 62, 134) !important;
+}
+
+.slide-number-a{
+    color: rgb(98, 205, 255) !important;
+}
+.slide-number-b{
+    color: rgb(0, 158, 197) !important;
+}
+.slide-number-delimiter{
+    color: rgb(0, 119, 255) !important;
+}
+.progress{
+    background-color: rgba(0, 119, 255, 0.281) !important;
+}
+.progress span{
+    background-color: rgb(0, 119, 255) !important;
 }
