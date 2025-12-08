@@ -143,3 +143,9 @@ i{
     text-indent: -3rem !important;
     max-width: 50rem !important;
 }
+
+.hookPage{
+    background-image: url("./assets/images/2321000101_95294d2102_k.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
